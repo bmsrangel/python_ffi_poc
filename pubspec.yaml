@@ -38,6 +38,16 @@ dependency_overrides:
       url: https://github.com/IVLIVS-III/dart_python_ffi.git
       path: packages/python_ffi_cpython
       ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+  python_ffi_cpython_dart:
+    git:
+      url: https://github.com/IVLIVS-III/dart_python_ffi.git
+      path: packages/python_ffi_cpython_dart
+      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+  python_ffi_dart:
+    git:
+      url: https://github.com/IVLIVS-III/dart_python_ffi.git
+      path: packages/python_ffi_dart
+      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
   python_ffi_interface:
     git:
       url: https://github.com/IVLIVS-III/dart_python_ffi.git
@@ -48,9 +58,203 @@ dependency_overrides:
       url: https://github.com/IVLIVS-III/dart_python_ffi.git
       path: packages/python_ffi_lint
       ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+  python_ffi_lint_dart:
+    git:
+      url: https://github.com/IVLIVS-III/dart_python_ffi.git
+      path: packages/python_ffi_lint_dart
+      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
 
 flutter:
   assets:
+    - python-modules/openpyxl/reader/drawings.py
+    - python-modules/openpyxl/reader/workbook.py
+    - python-modules/openpyxl/reader/__init__.py
+    - python-modules/openpyxl/reader/excel.py
+    - python-modules/openpyxl/reader/strings.py
+    - python-modules/openpyxl/packaging/workbook.py
+    - python-modules/openpyxl/packaging/custom.py
+    - python-modules/openpyxl/packaging/relationship.py
+    - python-modules/openpyxl/packaging/manifest.py
+    - python-modules/openpyxl/packaging/extended.py
+    - python-modules/openpyxl/packaging/interface.py
+    - python-modules/openpyxl/packaging/__init__.py
+    - python-modules/openpyxl/packaging/core.py
+    - python-modules/openpyxl/_constants.py
+    - python-modules/openpyxl/comments/comment_sheet.py
+    - python-modules/openpyxl/comments/author.py
+    - python-modules/openpyxl/comments/__init__.py
+    - python-modules/openpyxl/comments/shape_writer.py
+    - python-modules/openpyxl/comments/comments.py
+    - python-modules/openpyxl/drawing/relation.py
+    - python-modules/openpyxl/drawing/picture.py
+    - python-modules/openpyxl/drawing/fill.py
+    - python-modules/openpyxl/drawing/properties.py
+    - python-modules/openpyxl/drawing/line.py
+    - python-modules/openpyxl/drawing/drawing.py
+    - python-modules/openpyxl/drawing/__init__.py
+    - python-modules/openpyxl/drawing/xdr.py
+    - python-modules/openpyxl/drawing/graphic.py
+    - python-modules/openpyxl/drawing/text.py
+    - python-modules/openpyxl/drawing/geometry.py
+    - python-modules/openpyxl/drawing/connector.py
+    - python-modules/openpyxl/drawing/spreadsheet_drawing.py
+    - python-modules/openpyxl/drawing/effect.py
+    - python-modules/openpyxl/drawing/image.py
+    - python-modules/openpyxl/drawing/colors.py
+    - python-modules/openpyxl/pivot/fields.py
+    - python-modules/openpyxl/pivot/cache.py
+    - python-modules/openpyxl/pivot/__init__.py
+    - python-modules/openpyxl/pivot/record.py
+    - python-modules/openpyxl/pivot/table.py
+    - python-modules/openpyxl/compat/__init__.py
+    - python-modules/openpyxl/compat/numbers.py
+    - python-modules/openpyxl/compat/singleton.py
+    - python-modules/openpyxl/compat/product.py
+    - python-modules/openpyxl/compat/strings.py
+    - python-modules/openpyxl/compat/abc.py
+    - python-modules/openpyxl/chartsheet/relation.py
+    - python-modules/openpyxl/chartsheet/chartsheet.py
+    - python-modules/openpyxl/chartsheet/custom.py
+    - python-modules/openpyxl/chartsheet/properties.py
+    - python-modules/openpyxl/chartsheet/__init__.py
+    - python-modules/openpyxl/chartsheet/protection.py
+    - python-modules/openpyxl/chartsheet/views.py
+    - python-modules/openpyxl/chartsheet/publish.py
+    - python-modules/openpyxl/worksheet/ole.py
+    - python-modules/openpyxl/worksheet/print_settings.py
+    - python-modules/openpyxl/worksheet/controls.py
+    - python-modules/openpyxl/worksheet/merge.py
+    - python-modules/openpyxl/worksheet/related.py
+    - python-modules/openpyxl/worksheet/custom.py
+    - python-modules/openpyxl/worksheet/formula.py
+    - python-modules/openpyxl/worksheet/picture.py
+    - python-modules/openpyxl/worksheet/dimensions.py
+    - python-modules/openpyxl/worksheet/properties.py
+    - python-modules/openpyxl/worksheet/_writer.py
+    - python-modules/openpyxl/worksheet/cell_range.py
+    - python-modules/openpyxl/worksheet/hyperlink.py
+    - python-modules/openpyxl/worksheet/_write_only.py
+    - python-modules/openpyxl/worksheet/drawing.py
+    - python-modules/openpyxl/worksheet/__init__.py
+    - python-modules/openpyxl/worksheet/page.py
+    - python-modules/openpyxl/worksheet/_reader.py
+    - python-modules/openpyxl/worksheet/_read_only.py
+    - python-modules/openpyxl/worksheet/worksheet.py
+    - python-modules/openpyxl/worksheet/scenario.py
+    - python-modules/openpyxl/worksheet/cell_watch.py
+    - python-modules/openpyxl/worksheet/table.py
+    - python-modules/openpyxl/worksheet/header_footer.py
+    - python-modules/openpyxl/worksheet/errors.py
+    - python-modules/openpyxl/worksheet/smart_tag.py
+    - python-modules/openpyxl/worksheet/datavalidation.py
+    - python-modules/openpyxl/worksheet/copier.py
+    - python-modules/openpyxl/worksheet/protection.py
+    - python-modules/openpyxl/worksheet/filters.py
+    - python-modules/openpyxl/worksheet/views.py
+    - python-modules/openpyxl/worksheet/pagebreak.py
+    - python-modules/openpyxl/chart/_chart.py
+    - python-modules/openpyxl/chart/data_source.py
+    - python-modules/openpyxl/chart/print_settings.py
+    - python-modules/openpyxl/chart/axis.py
+    - python-modules/openpyxl/chart/trendline.py
+    - python-modules/openpyxl/chart/shapes.py
+    - python-modules/openpyxl/chart/picture.py
+    - python-modules/openpyxl/chart/layout.py
+    - python-modules/openpyxl/chart/surface_chart.py
+    - python-modules/openpyxl/chart/legend.py
+    - python-modules/openpyxl/chart/series.py
+    - python-modules/openpyxl/chart/__init__.py
+    - python-modules/openpyxl/chart/pie_chart.py
+    - python-modules/openpyxl/chart/chartspace.py
+    - python-modules/openpyxl/chart/updown_bars.py
+    - python-modules/openpyxl/chart/plotarea.py
+    - python-modules/openpyxl/chart/marker.py
+    - python-modules/openpyxl/chart/reader.py
+    - python-modules/openpyxl/chart/descriptors.py
+    - python-modules/openpyxl/chart/radar_chart.py
+    - python-modules/openpyxl/chart/label.py
+    - python-modules/openpyxl/chart/text.py
+    - python-modules/openpyxl/chart/line_chart.py
+    - python-modules/openpyxl/chart/series_factory.py
+    - python-modules/openpyxl/chart/reference.py
+    - python-modules/openpyxl/chart/bar_chart.py
+    - python-modules/openpyxl/chart/_3d.py
+    - python-modules/openpyxl/chart/stock_chart.py
+    - python-modules/openpyxl/chart/pivot.py
+    - python-modules/openpyxl/chart/area_chart.py
+    - python-modules/openpyxl/chart/bubble_chart.py
+    - python-modules/openpyxl/chart/scatter_chart.py
+    - python-modules/openpyxl/chart/error_bar.py
+    - python-modules/openpyxl/chart/title.py
+    - python-modules/openpyxl/__init__.py
+    - python-modules/openpyxl/utils/indexed_list.py
+    - python-modules/openpyxl/utils/formulas.py
+    - python-modules/openpyxl/utils/escape.py
+    - python-modules/openpyxl/utils/units.py
+    - python-modules/openpyxl/utils/cell.py
+    - python-modules/openpyxl/utils/dataframe.py
+    - python-modules/openpyxl/utils/__init__.py
+    - python-modules/openpyxl/utils/bound_dictionary.py
+    - python-modules/openpyxl/utils/inference.py
+    - python-modules/openpyxl/utils/exceptions.py
+    - python-modules/openpyxl/utils/datetime.py
+    - python-modules/openpyxl/utils/protection.py
+    - python-modules/openpyxl/xml/functions.py
+    - python-modules/openpyxl/xml/constants.py
+    - python-modules/openpyxl/xml/__init__.py
+    - python-modules/openpyxl/cell/read_only.py
+    - python-modules/openpyxl/cell/_writer.py
+    - python-modules/openpyxl/cell/cell.py
+    - python-modules/openpyxl/cell/__init__.py
+    - python-modules/openpyxl/cell/text.py
+    - python-modules/openpyxl/cell/rich_text.py
+    - python-modules/openpyxl/styles/cell_style.py
+    - python-modules/openpyxl/styles/alignment.py
+    - python-modules/openpyxl/styles/builtins.py
+    - python-modules/openpyxl/styles/proxy.py
+    - python-modules/openpyxl/styles/borders.py
+    - python-modules/openpyxl/styles/__init__.py
+    - python-modules/openpyxl/styles/numbers.py
+    - python-modules/openpyxl/styles/table.py
+    - python-modules/openpyxl/styles/named_styles.py
+    - python-modules/openpyxl/styles/differential.py
+    - python-modules/openpyxl/styles/fills.py
+    - python-modules/openpyxl/styles/fonts.py
+    - python-modules/openpyxl/styles/stylesheet.py
+    - python-modules/openpyxl/styles/protection.py
+    - python-modules/openpyxl/styles/styleable.py
+    - python-modules/openpyxl/styles/colors.py
+    - python-modules/openpyxl/writer/theme.py
+    - python-modules/openpyxl/writer/__init__.py
+    - python-modules/openpyxl/writer/excel.py
+    - python-modules/openpyxl/formatting/__init__.py
+    - python-modules/openpyxl/formatting/formatting.py
+    - python-modules/openpyxl/formatting/rule.py
+    - python-modules/openpyxl/descriptors/slots.py
+    - python-modules/openpyxl/descriptors/sequence.py
+    - python-modules/openpyxl/descriptors/__init__.py
+    - python-modules/openpyxl/descriptors/excel.py
+    - python-modules/openpyxl/descriptors/serialisable.py
+    - python-modules/openpyxl/descriptors/namespace.py
+    - python-modules/openpyxl/descriptors/base.py
+    - python-modules/openpyxl/descriptors/nested.py
+    - python-modules/openpyxl/formula/translate.py
+    - python-modules/openpyxl/formula/__init__.py
+    - python-modules/openpyxl/formula/tokenizer.py
+    - python-modules/openpyxl/workbook/workbook.py
+    - python-modules/openpyxl/workbook/web.py
+    - python-modules/openpyxl/workbook/smart_tags.py
+    - python-modules/openpyxl/workbook/properties.py
+    - python-modules/openpyxl/workbook/_writer.py
+    - python-modules/openpyxl/workbook/defined_name.py
+    - python-modules/openpyxl/workbook/external_reference.py
+    - python-modules/openpyxl/workbook/__init__.py
+    - python-modules/openpyxl/workbook/function_group.py
+    - python-modules/openpyxl/workbook/external_link/__init__.py
+    - python-modules/openpyxl/workbook/external_link/external.py
+    - python-modules/openpyxl/workbook/child.py
+    - python-modules/openpyxl/workbook/protection.py
+    - python-modules/openpyxl/workbook/views.py
     - python-modules/excel_test.py
     - python-modules/basic_operations.py
     - python-modules/python_ffi.py
@@ -61,3 +265,4 @@ python_ffi:
   modules:
     basic_operations: any
     excel_test: any
+    openpyxl: ^3.1.2

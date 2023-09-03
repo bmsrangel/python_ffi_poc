@@ -280,20 +280,22 @@ packages:
     source: git
     version: "0.3.1"
   python_ffi_cpython_dart:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: python_ffi_cpython_dart
-      sha256: "7dc143902ca46276ac1c61b3c69c5aaae2acf2b75b813ce2a2a4dc6fe8f9588c"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/python_ffi_cpython_dart"
+      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
+    source: git
     version: "0.3.1"
   python_ffi_dart:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: python_ffi_dart
-      sha256: "0702ab009bc5636e65f2cb28cd9332d51496e26c527226f160ca81cb100f1111"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/python_ffi_dart"
+      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
+    source: git
     version: "0.3.1"
   python_ffi_interface:
     dependency: "direct overridden"
@@ -314,12 +316,13 @@ packages:
     source: git
     version: "0.1.0"
   python_ffi_lint_dart:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: python_ffi_lint_dart
-      sha256: "2c2d536490afb78829153bd1daf06f709a48bb519a9d35a4e091c9b3da60b3f3"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/python_ffi_lint_dart"
+      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
+    source: git
     version: "0.1.0"
   sky_engine:
     dependency: transitive
