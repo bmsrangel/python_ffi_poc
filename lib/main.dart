@@ -6,6 +6,7 @@ import 'package:python_ffi_poc/excel_test.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // '/Volumes/Macintosh HD/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib'
   await PythonFfi.instance.initialize();
 
   runApp(const MainApp());
