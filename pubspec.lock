@@ -69,8 +69,8 @@ packages:
     dependency: "direct dev"
     description:
       path: "packages/dartpip"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.1.0"
@@ -78,8 +78,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/dartpip_solver"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.0.1"
@@ -265,8 +265,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/python_ffi"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.3.1"
@@ -274,8 +274,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/python_ffi_cpython"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.3.1"
@@ -283,8 +283,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/python_ffi_cpython_dart"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.3.1"
@@ -292,8 +292,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/python_ffi_dart"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.3.1"
@@ -301,8 +301,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/python_ffi_interface"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.1.1"
@@ -310,8 +310,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/python_ffi_lint"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.1.0"
@@ -319,8 +319,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/python_ffi_lint_dart"
-      ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
-      resolved-ref: f6eb62d8e78fb883ae5f8fc1133c985306d28067
+      ref: main
+      resolved-ref: "8c63ce86bc25d9bbeed222389088f30583d67db9"
       url: "https://github.com/IVLIVS-III/dart_python_ffi.git"
     source: git
     version: "0.1.0"
